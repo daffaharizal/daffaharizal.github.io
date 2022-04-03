@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+
+* {
+  /* background-color: #171717; */
+  color: white;
+  font-family: "Roboto", sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #171717;
+  height: 3000px;
+}
+
+/* Navbar */
+.navbar .logo-name {
+  font-family: "Bakbak One", cursive;
+}
+
+#navbarNav .nav-link {
+  font-weight: 500;
+  font-size: 16px;
+  color: #079211;
+  font-family: "Archivo", sans-serif;
+}
+
+#navbarNav .nav-item .nav-link:hover {
+  color: #ffffffb0;
+}
+/* Akhir navbar */
+
+/* Header */
+#header {
+  font-family: "Archivo", sans-serif;
+  padding-top: 100px;
+}
+
+#header h4 {
+  color: #079211;
+  font-weight: 800;
+  font-size: 18px;
+  font-family: "Archivo", sans-serif;
+}
+
+#header h1 {
+  font-weight: 800;
+  font-size: 28px;
+  margin-top: 10px;
+  font-family: "Archivo", sans-serif;
+}
+
+#header p {
+  font-family: "Roboto", sans-serif;
+  margin-top: 20px;
+  font-weight: 400;
+  letter-spacing: 0.1px;
+  color: darkgray;
+}
+
+#header img {
+  width: 55%;
+}
+
+#header .buttoncv i {
+  background-color: 0%;
+  color: darkgray;
+}
+
+#header .buttoncv {
+  text-decoration: none;
+  color: darkgray;
+}
+/* Akhir header */
+
+/* Familiar */
+#familiar {
+  padding-top: 10%;
+}
+
+#familiar .row {
+  padding-bottom: 2%;
+}
+
+#familiar h4 {
+  color: #079211;
+  font-family: "Archivo", sans-serif;
+  font-weight: 700;
+}
+
+#familiar .row img {
+  height: 30%;
+  color: blueviolet;
+}
+
+/* =================================================== */
+
+/* CSS DEKSTOP */
+@media (min-width: 768px) {
+  /* Navbar */
+
+  #navbarNav .nav-link {
+    font-weight: 500;
+    color: white;
+    font-family: "Archivo", sans-serif;
+  }
+
+  #navbarNav .nav-item .nav-link:hover {
+    color: #079211;
+    transition: 0.4s;
+  }
+
+  /* Header */
+  #header {
+    font-family: "Archivo", sans-serif;
+    padding-top: 100px;
+  }
+
+  #header h4 {
+    color: #079211;
+    font-weight: 800;
+    font-size: 28px;
+  }
+
+  #header h1 {
+    font-weight: 800;
+    font-size: 40px;
+    margin-top: 5px;
+  }
+
+  #header p {
+    font-family: "Roboto", sans-serif;
+    margin-top: 20px;
+    color: rgb(191, 191, 191);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.1px;
+  }
+
+  #header img {
+    width: 250px;
+  }
+  /* Akhir header */
+
+  /* Familiar */
+  #familiar {
+    padding-top: 5%;
+  }
+
+  #familiar .row img {
+    height: 60%;
+    color: blueviolet;
+  }
+  /* Akhir familiar */
+}
+
+/* CSS DESKTOP */
