@@ -14,6 +14,19 @@ body {
   height: 3000px;
 }
 
+h3 {
+  color: #079211;
+  font-weight: 800;
+  font-family: "Archivo", sans-serif;
+  margin-bottom: 2%;
+}
+
+#header,
+#familiar,
+#projects {
+  margin-bottom: 40px;
+}
+
 /* Navbar */
 .navbar .logo-name {
   font-family: "Bakbak One", cursive;
@@ -35,13 +48,6 @@ body {
 #header {
   font-family: "Archivo", sans-serif;
   padding-top: 100px;
-}
-
-#header h4 {
-  color: #079211;
-  font-weight: 800;
-  font-size: 18px;
-  font-family: "Archivo", sans-serif;
 }
 
 #header h1 {
@@ -75,13 +81,6 @@ body {
 /* Akhir header */
 
 /* Familiar */
-#familiar {
-  padding-top: 10%;
-}
-
-#familiar .row {
-  padding-bottom: 2%;
-}
 
 #familiar h4 {
   color: #079211;
@@ -90,8 +89,7 @@ body {
 }
 
 #familiar .row img {
-  height: 30%;
-  color: blueviolet;
+  height: 50px;
 }
 
 /* =================================================== */
@@ -145,9 +143,6 @@ body {
   /* Akhir header */
 
   /* Familiar */
-  #familiar {
-    padding-top: 5%;
-  }
 
   #familiar .row img {
     height: 60%;
