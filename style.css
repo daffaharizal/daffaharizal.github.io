@@ -18,7 +18,7 @@ h3 {
   color: #079211;
   font-weight: 800;
   font-family: "Archivo", sans-serif;
-  margin-bottom: 2%;
+  margin-bottom: 3%;
 }
 
 #header,
@@ -92,6 +92,22 @@ h3 {
   height: 50px;
 }
 
+#footer {
+  background-color: #262626;
+  padding: 15px;
+}
+
+#footer p,
+#footer h4 {
+  margin: 0;
+}
+
+#footer h4 {
+  color: #079211;
+  font-weight: 800;
+  font-family: "Archivo", sans-serif;
+}
+
 /* =================================================== */
 
 /* CSS DEKSTOP */
@@ -147,6 +163,11 @@ h3 {
   #familiar .row img {
     height: 60%;
     color: blueviolet;
+    transition: 0.5s;
+  }
+
+  #familiar .row img:hover {
+    height: 80%;
   }
   /* Akhir familiar */
 }
