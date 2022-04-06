@@ -11,7 +11,6 @@
 
 body {
   background-color: #171717;
-  height: 3000px;
 }
 
 h3 {
@@ -95,19 +94,18 @@ h3 {
 #footer {
   background-color: #262626;
   padding: 15px;
-}
-
-#footer p,
-#footer h4 {
   margin: 0;
 }
 
-#footer h4 {
+#footer a i {
+  font-size: 40px;
   color: #079211;
-  font-weight: 800;
-  font-family: "Archivo", sans-serif;
+  transition: 0.5s;
 }
 
+#footer a:hover i {
+  color: #0792108b;
+}
 /* =================================================== */
 
 /* CSS DEKSTOP */
