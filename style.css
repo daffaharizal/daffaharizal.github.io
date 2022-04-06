@@ -49,6 +49,16 @@ h3 {
   padding-top: 100px;
 }
 
+#header a,
+#header i {
+  transition: 0.4s;
+}
+
+#header .btn-primary:hover,
+#header a:hover i {
+  color: #ffffffa9;
+}
+
 #header h1 {
   font-weight: 800;
   font-size: 28px;
