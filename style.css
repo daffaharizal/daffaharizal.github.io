@@ -116,6 +116,13 @@ h3 {
 #footer a:hover i {
   color: #0792108b;
 }
+
+#header,
+#familiar,
+#projects,
+#footer {
+  padding-top: 80px;
+}
 /* =================================================== */
 
 /* CSS DEKSTOP */
