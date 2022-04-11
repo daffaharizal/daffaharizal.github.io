@@ -39,7 +39,7 @@ h3 {
 }
 
 #navbarNav .nav-item .nav-link:hover {
-  color: #ffffffb0;
+  color: #aaaaaa;
 }
 /* Akhir navbar */
 
@@ -56,7 +56,7 @@ h3 {
 
 #header .btn-primary:hover,
 #header a:hover i {
-  color: #ffffffa9;
+  color: #ffffffab;
 }
 
 #header h1 {
@@ -71,7 +71,7 @@ h3 {
   margin-top: 20px;
   font-weight: 400;
   letter-spacing: 0.1px;
-  color: darkgray;
+  color: #aaaaaa;
 }
 
 #header img {
@@ -80,12 +80,12 @@ h3 {
 
 #header .buttoncv i {
   background-color: 0%;
-  color: darkgray;
+  color: #aaaaaa;
 }
 
 #header .buttoncv {
   text-decoration: none;
-  color: darkgray;
+  color: #aaaaaa;
 }
 /* Akhir header */
 
@@ -161,7 +161,7 @@ h3 {
   #header p {
     font-family: "Roboto", sans-serif;
     margin-top: 20px;
-    color: rgb(191, 191, 191);
+    color: #aaaaaa;
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
