@@ -145,6 +145,23 @@
       </div>
     </section>
 
+    <section id="api-youtube">
+      <div class="container">
+        <div class="row justify-content-center mb-5">
+          <div class="col-6">
+            <div class="ratio div-round" style="--bs-aspect-ratio: 50%;">
+              <iframe location.reload="onYouTubeIframeAPIReady()"  id="existing-iframe-example"
+              width="640" height="360"
+              src="https://www.youtube.com/embed/71hi9H6fZuc?rel=0&amp; autoplay=1"
+              allow="autoplay"
+              frameborder="0"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <div id="footer">
       <div class="container-fluid">
         <div class="row justify-content-evenly">
@@ -166,5 +183,35 @@
 
     <script src="js/bootstrap.js"></script>
     <script src="https://unpkg.com/boxicons@2.1.2/dist/boxicons.js"></script>
+    <div id="muteYouTubeVideoPlayer"></div>
+  <script async src="https://www.youtube.com/iframe_api"></script>
+  <script>
+  function onYouTubeIframeAPIReady() {
+    var player;
+    player = new YT.Player('muteYouTubeVideoPlayer', {
+      videoId: '71hi9H6fZuc', // YouTube Video ID
+      width: 560,               // Player width (in px)
+      height: 316,              // Player height (in px)
+      playerVars: {
+        autoplay: 1,        // Auto-play the video on load
+        controls: 1,        // Show pause/play buttons in player
+        showinfo: 0,        // Hide the video title
+        modestbranding: 1,  // Hide the Youtube Logo
+        loop: 1,            // Run the video in a loop
+        fs: 0,              // Hide the full screen button
+        cc_load_policy: 0, // Hide closed captions
+        iv_load_policy: 3,  // Hide the Video Annotations
+        autohide: 0         // Hide video controls when playing
+      },
+      events: {
+        onReady: function(e) {
+          e.target.mute();
+        }
+      }
+    });
+  }
+
+  // Written by @labnol 
+  </script>
   </body>
 </html>
